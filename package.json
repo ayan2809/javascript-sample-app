@@ -1,1 +1,18 @@
-{"name":"package.json","path":"package.json","sha":"316a0b67da663bd4ff566ac50714c5eb99754f56","size":356,"url":"https://api.github.com/repos/ayan2809/javascript-sample-app/contents/package.json?ref=main","html_url":"https://github.com/ayan2809/javascript-sample-app/blob/main/package.json","git_url":"https://api.github.com/repos/ayan2809/javascript-sample-app/git/blobs/316a0b67da663bd4ff566ac50714c5eb99754f56","download_url":"https://raw.githubusercontent.com/ayan2809/javascript-sample-app/main/package.json","type":"file","content":"ewogICJuYW1lIjogInNhbXBsZS13ZWItaW50ZWdyYXRpb24iLAogICJ2ZXJz\naW9uIjogIjAuMC4wIiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInNjcmlwdHMi\nOiB7CiAgICAic3RhcnQiOiAibm9kZSAuL2Jpbi93d3ciCiAgfSwKICAiZGVw\nZW5kZW5jaWVzIjogewogICAgImF4aW9zIjogIl4wLjIxLjEiLAogICAgImNv\nb2tpZS1wYXJzZXIiOiAifjEuNC40IiwKICAgICJkZWJ1ZyI6ICJ+Mi42Ljki\nLAogICAgImRvdGVudiI6ICJeOC4yLjAiLAogICAgImVqcyI6ICJ+Mi42LjEi\nLAogICAgImV4cHJlc3MiOiAifjQuMTYuMSIsCiAgICAiaHR0cC1lcnJvcnMi\nOiAifjEuNi4zIiwKICAgICJtb3JnYW4iOiAifjEuOS4xIgogIH0KfQo=\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/ayan2809/javascript-sample-app/contents/package.json?ref=main","git":"https://api.github.com/repos/ayan2809/javascript-sample-app/git/blobs/316a0b67da663bd4ff566ac50714c5eb99754f56","html":"https://github.com/ayan2809/javascript-sample-app/blob/main/package.json"}}
+{
+  "name": "sample-web-integration",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
